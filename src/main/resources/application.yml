@@ -1,0 +1,9 @@
+micronaut:
+  server:
+    port: 9998
+  application:
+    name: helloWorld
+netty:
+  default:
+    allocator:
+      max-order: 3
