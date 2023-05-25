@@ -5,6 +5,8 @@ import jakarta.inject.Inject;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @MicronautTest // (1)
 public class HelloClientSpec  {
 
